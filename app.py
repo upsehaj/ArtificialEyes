@@ -8,7 +8,6 @@ import numpy as np
 import cv2
 import os
 #from skimage.transform import resize, pyramid_reduce
-#for hacktoberfest'19
 import PIL
 from PIL import Image
 import torch
@@ -72,7 +71,7 @@ def hello_world():
 def setres():
     return render_template('result.html')
 
-if __name__ == '__main__':
-#    print("predicting") 
-   app.debug=True
-   app.run(host = '0.0.0.0',port=8888,debug=True)
+if __name__ == '__main__': 
+    app.debug=True
+    app.run(host = '0.0.0.0',port=8888,debug=True)
+    # print(Predicting.....)
